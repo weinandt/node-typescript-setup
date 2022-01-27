@@ -1,0 +1,5 @@
+export class Server {
+    start(): boolean {
+        return true
+    }
+}
