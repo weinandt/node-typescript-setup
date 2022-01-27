@@ -4,7 +4,9 @@
   "description": "A project format which can be copied for project which wish to use node, typescript, vscode, nodemon, mocha.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require ts-node/register 'src/**/*.test.ts'"
+    "test": "mocha --require ts-node/register 'src/**/*.test.ts'",
+    "start": "ts-node src/server.ts",
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/mocha": "^9.1.0",
