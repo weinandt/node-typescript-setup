@@ -3,3 +3,5 @@ export class Server {
         return true
     }
 }
+
+const server = new Server()
