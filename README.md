@@ -2,6 +2,11 @@
 
 A project format which can be copied for project which wish to use node, typescript, vscode, ts-node, mocha.
 
+## Debugging in VSCode
+Both the server and the tests can be debugged in VSCode.
+
+Just go to debugging tab and select either the "Debug Server" or "Debug Tests"
+
 ## Updating Dependencies
 
 Dependencies are updated inside the same docker container which will run in production.
